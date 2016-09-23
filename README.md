@@ -19,3 +19,9 @@ Requirements:
 
 --------------------
 
+*City*: Ann Arbor, MI
+*Attractions Types*:
+* Parks
+* Museums
+* Restaurants
+* Bars / Clubs
