@@ -7,17 +7,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ParksFragment extends Fragment {
+public class RestaurantsFragment extends Fragment {
 
 
-    public ParksFragment() {
+    public RestaurantsFragment() {
         // Required empty public constructor
     }
 
@@ -28,13 +27,13 @@ public class ParksFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.attractions_list, container, false);
 
         ArrayList<CityAttraction> cityAttractionsList = new ArrayList<CityAttraction>();
-        cityAttractionsList.add(new CityAttraction("Gallup Park", "3000 Fuller Rd"));
-        cityAttractionsList.add(new CityAttraction("Bandemer Park", "1352 Lake Shore Dr"));
-        cityAttractionsList.add(new CityAttraction("Argo Nature Area", "1055 Longshore Dr"));
-        cityAttractionsList.add(new CityAttraction("Furstenberg Nature Area", "2728 Fuller Rd"));
-        cityAttractionsList.add(new CityAttraction("Nichols Arboretum", "1610 Washington Hts"));
-        cityAttractionsList.add(new CityAttraction("County Farm Park", "2230 Platt Rd"));
-        cityAttractionsList.add(new CityAttraction("Island Park", "1425 Island Dr"));
+        cityAttractionsList.add(new CityAttraction("Zingerman’s Delicatessen", "422 Detroit St"));
+        cityAttractionsList.add(new CityAttraction("Frita Batidos", "117 W Washington St"));
+        cityAttractionsList.add(new CityAttraction("Jolly Pumpkin Cafe & Brewery", "311 S Main St"));
+        cityAttractionsList.add(new CityAttraction("Sava's", "216 S State St"));
+        cityAttractionsList.add(new CityAttraction("Mani Osteria & Bar", "341 E Liberty St"));
+        cityAttractionsList.add(new CityAttraction("Tomukun Noodle Bar", "505 E Liberty St"));
+        cityAttractionsList.add(new CityAttraction("Isalita", "341 E Liberty St"));
 
         CityAttractionAdapter itemsAdapter = new CityAttractionAdapter(getContext(), cityAttractionsList);
 

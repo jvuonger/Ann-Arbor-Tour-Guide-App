@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
 
 /**
@@ -34,8 +36,11 @@ public class CityAttractionAdapter extends ArrayAdapter<CityAttraction> {
 
         CityAttraction cityAttraction = getItem(position);
 
-        TextView tvItem = (TextView) listItemView.findViewById(R.id.attraction_name);
-        tvItem.setText(cityAttraction.getName());
+        TextView tvAttractionName = (TextView) listItemView.findViewById(R.id.attraction_name);
+        tvAttractionName.setText(cityAttraction.getName());
+
+        TextView tvAttractionAddress = (TextView) listItemView.findViewById(R.id.attraction_address);
+        tvAttractionAddress.setText(cityAttraction.getAddress());
 
         return listItemView;
     }

@@ -7,17 +7,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ParksFragment extends Fragment {
+public class BarsClubsFragment extends Fragment {
 
 
-    public ParksFragment() {
+    public BarsClubsFragment() {
         // Required empty public constructor
     }
 
@@ -28,13 +27,14 @@ public class ParksFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.attractions_list, container, false);
 
         ArrayList<CityAttraction> cityAttractionsList = new ArrayList<CityAttraction>();
-        cityAttractionsList.add(new CityAttraction("Gallup Park", "3000 Fuller Rd"));
-        cityAttractionsList.add(new CityAttraction("Bandemer Park", "1352 Lake Shore Dr"));
-        cityAttractionsList.add(new CityAttraction("Argo Nature Area", "1055 Longshore Dr"));
-        cityAttractionsList.add(new CityAttraction("Furstenberg Nature Area", "2728 Fuller Rd"));
-        cityAttractionsList.add(new CityAttraction("Nichols Arboretum", "1610 Washington Hts"));
-        cityAttractionsList.add(new CityAttraction("County Farm Park", "2230 Platt Rd"));
-        cityAttractionsList.add(new CityAttraction("Island Park", "1425 Island Dr"));
+        cityAttractionsList.add(new CityAttraction("The Last Word", "301 W Huron St"));
+        cityAttractionsList.add(new CityAttraction("Wolverine State Brewing", "2019 W Stadium"));
+        cityAttractionsList.add(new CityAttraction("Ashley's", "338 S State St"));
+        cityAttractionsList.add(new CityAttraction("Bill's Beer Garden", "210 S Ashley St"));
+        cityAttractionsList.add(new CityAttraction("The Beer Grotto", "303 S Ashley St"));
+        cityAttractionsList.add(new CityAttraction("Arbor Brewing Company", "114 E Washington St"));
+        cityAttractionsList.add(new CityAttraction("Fraser's Pub", "114 E Washington St"));
+        cityAttractionsList.add(new CityAttraction("Conor O'Neill's", "318 S Main St"));
 
         CityAttractionAdapter itemsAdapter = new CityAttractionAdapter(getContext(), cityAttractionsList);
 

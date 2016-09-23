@@ -9,7 +9,7 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 
 public class CityAttractionTypeAdapter extends FragmentPagerAdapter {
-    private String[] mTabTitles = new String[] {"Parks"};
+    private String[] mTabTitles = new String[] {"Parks", "Museums", "Restaurants", "Bars / Clubs"};
 
     public CityAttractionTypeAdapter(FragmentManager fm) {
         super(fm);
@@ -17,7 +17,7 @@ public class CityAttractionTypeAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 1;
+        return 4;
     }
 
     @Override
@@ -25,8 +25,12 @@ public class CityAttractionTypeAdapter extends FragmentPagerAdapter {
 
         if(position == 0) {
             return new ParksFragment();
-        } else {
-            return new ParksFragment();
+        } else if (position == 1) {
+            return new MuseumsFragment();
+        } else if (position == 2) {
+            return new RestaurantsFragment();
+        }  else {
+            return new BarsClubsFragment();
         }
 
     }
