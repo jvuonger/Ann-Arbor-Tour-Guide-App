@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -41,6 +43,15 @@ public class CityAttractionAdapter extends ArrayAdapter<CityAttraction> {
 
         TextView tvAttractionAddress = (TextView) listItemView.findViewById(R.id.attraction_address);
         tvAttractionAddress.setText(cityAttraction.getAddress());
+
+        LinearLayout imageContainer = (LinearLayout) listItemView.findViewById(R.id.image_container);
+        if ( cityAttraction.hasImage() ) {
+            ImageView ivAttractionLogo = (ImageView) listItemView.findViewById(R.id.logo);
+            ivAttractionLogo.setImageResource(cityAttraction.getImageResourceId());
+            imageContainer.setVisibility(View.VISIBLE);
+        } else {
+            imageContainer.setVisibility(View.GONE);
+        }
 
         return listItemView;
     }
