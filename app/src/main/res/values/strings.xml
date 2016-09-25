@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Ann Arbor Tour Guide</string>
-    
+
     <string name="museum_1">Ann Arbor Hands-On Museum</string>
     <string name="museum_2">UofM Museum of Natural History</string>
     <string name="museum_3">UofM Museum of Art</string>
@@ -25,10 +25,10 @@
     <string name="park_6_address">2230 Platt Rd</string>
     <string name="park_7_address">1425 Island Dr</string>
 
-    <string name="restaurant_1">Zingerman’s Delicatessen</string>
+    <string name="restaurant_1">Zingerman\’s Delicatessen</string>
     <string name="restaurant_2">Frita Batidos</string>
     <string name="restaurant_3">Jolly Pumpkin Cafe &amp; Brewery</string>
-    <string name="restaurant_4">Sava's</string>
+    <string name="restaurant_4">Sava\'s</string>
     <string name="restaurant_5">Mani Osteria &amp; Bar</string>
     <string name="restaurant_6">Tomukun Noodle Bar</string>
     <string name="restaurant_7">Isalita</string>
@@ -42,12 +42,12 @@
 
     <string name="bar_club_1">The Last Word</string>
     <string name="bar_club_2">Wolverine State Brewing</string>
-    <string name="bar_club_3">Ashley's</string>
-    <string name="bar_club_4">Bill's Beer Garden</string>
+    <string name="bar_club_3">Ashley\'s</string>
+    <string name="bar_club_4">Bill\'s Beer Garden</string>
     <string name="bar_club_5">The Beer Grotto</string>
     <string name="bar_club_6">Arbor Brewing Company</string>
-    <string name="bar_club_7">Fraser's Pub</string>
-    <string name="bar_club_8">Conor O'Neill's</string>
+    <string name="bar_club_7">Fraser\'s Pub</string>
+    <string name="bar_club_8">Conor O\'Neill\'s</string>
     <string name="bar_club_1_address">301 W Huron St</string>
     <string name="bar_club_2_address">2019 W Stadium</string>
     <string name="bar_club_3_address">338 S State St</string>
