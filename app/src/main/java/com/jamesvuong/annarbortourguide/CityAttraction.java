@@ -9,7 +9,6 @@ public class CityAttraction {
     private final String mState = "Michigan";
     private String mName;
     private String mAddress;
-    private String mType;
     private int mImageResourceId;
     private final int NO_IMAGE_ID = -1;
 
@@ -26,12 +25,8 @@ public class CityAttraction {
     }
 
     public void setName(String name) { mName = name; }
-    public void setType(String type) { mType = type;}
-    public void setAddress(String address) { mType = address;}
-    public void setImageResourceId(int imageResourceId) { mImageResourceId = imageResourceId; }
 
     public String getName() { return mName; }
-    public String getType() { return mType; }
     public String getAddress() { return mAddress + ", " + mCity + ", " + mState ; }
     public int getImageResourceId() { return mImageResourceId; }
 

@@ -10,15 +10,10 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class RestaurantsFragment extends Fragment {
 
 
-    public RestaurantsFragment() {
-        // Required empty public constructor
-    }
+    public RestaurantsFragment() {}
 
 
     @Override
@@ -27,13 +22,13 @@ public class RestaurantsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.attractions_list, container, false);
 
         ArrayList<CityAttraction> cityAttractionsList = new ArrayList<CityAttraction>();
-        cityAttractionsList.add(new CityAttraction("Zingerman’s Delicatessen", "422 Detroit St"));
-        cityAttractionsList.add(new CityAttraction("Frita Batidos", "117 W Washington St"));
-        cityAttractionsList.add(new CityAttraction("Jolly Pumpkin Cafe & Brewery", "311 S Main St"));
-        cityAttractionsList.add(new CityAttraction("Sava's", "216 S State St"));
-        cityAttractionsList.add(new CityAttraction("Mani Osteria & Bar", "341 E Liberty St"));
-        cityAttractionsList.add(new CityAttraction("Tomukun Noodle Bar", "505 E Liberty St"));
-        cityAttractionsList.add(new CityAttraction("Isalita", "341 E Liberty St"));
+        cityAttractionsList.add(new CityAttraction(getString(R.string.restaurant_1), getString(R.string.restaurant_1_address)));
+        cityAttractionsList.add(new CityAttraction(getString(R.string.restaurant_2), getString(R.string.restaurant_2_address)));
+        cityAttractionsList.add(new CityAttraction(getString(R.string.restaurant_3), getString(R.string.restaurant_3_address)));
+        cityAttractionsList.add(new CityAttraction(getString(R.string.restaurant_4), getString(R.string.restaurant_4_address)));
+        cityAttractionsList.add(new CityAttraction(getString(R.string.restaurant_5), getString(R.string.restaurant_5_address)));
+        cityAttractionsList.add(new CityAttraction(getString(R.string.restaurant_6), getString(R.string.restaurant_6_address)));
+        cityAttractionsList.add(new CityAttraction(getString(R.string.restaurant_7), getString(R.string.restaurant_7_address)));
 
         CityAttractionAdapter itemsAdapter = new CityAttractionAdapter(getContext(), cityAttractionsList);
 

@@ -1,4 +1,59 @@
 <resources>
     <string name="app_name">Ann Arbor Tour Guide</string>
+    
+    <string name="museum_1">Ann Arbor Hands-On Museum</string>
+    <string name="museum_2">UofM Museum of Natural History</string>
+    <string name="museum_3">UofM Museum of Art</string>
+    <string name="museum_4">Leslie Science Center</string>
+    <string name="museum_1_address">220 E Ann St</string>
+    <string name="museum_2_address">1109 Geddes Ave</string>
+    <string name="museum_3_address">525 S State St</string>
+    <string name="museum_4_address">1831 Traver Rd</string>
 
+    <string name="park_1">Gallup Park</string>
+    <string name="park_2">Bandemer Park</string>
+    <string name="park_3">Argo Nature Area</string>
+    <string name="park_4">Furstenberg Nature Area</string>
+    <string name="park_5">Nichols Arboretum</string>
+    <string name="park_6">County Farm Park</string>
+    <string name="park_7">Island Park</string>
+    <string name="park_1_address">3000 Fuller Rd</string>
+    <string name="park_2_address">1352 Lake Shore Dr</string>
+    <string name="park_3_address">1055 Longshore Dr</string>
+    <string name="park_4_address">2728 Fuller Rd</string>
+    <string name="park_5_address">1610 Washington Hts</string>
+    <string name="park_6_address">2230 Platt Rd</string>
+    <string name="park_7_address">1425 Island Dr</string>
+
+    <string name="restaurant_1">Zingerman’s Delicatessen</string>
+    <string name="restaurant_2">Frita Batidos</string>
+    <string name="restaurant_3">Jolly Pumpkin Cafe &amp; Brewery</string>
+    <string name="restaurant_4">Sava's</string>
+    <string name="restaurant_5">Mani Osteria &amp; Bar</string>
+    <string name="restaurant_6">Tomukun Noodle Bar</string>
+    <string name="restaurant_7">Isalita</string>
+    <string name="restaurant_1_address">422 Detroit St</string>
+    <string name="restaurant_2_address">117 W Washington St</string>
+    <string name="restaurant_3_address">311 S Main St</string>
+    <string name="restaurant_4_address">216 S State St</string>
+    <string name="restaurant_5_address">341 E Liberty St</string>
+    <string name="restaurant_6_address">505 E Liberty St</string>
+    <string name="restaurant_7_address">341 E Liberty St</string>
+
+    <string name="bar_club_1">The Last Word</string>
+    <string name="bar_club_2">Wolverine State Brewing</string>
+    <string name="bar_club_3">Ashley's</string>
+    <string name="bar_club_4">Bill's Beer Garden</string>
+    <string name="bar_club_5">The Beer Grotto</string>
+    <string name="bar_club_6">Arbor Brewing Company</string>
+    <string name="bar_club_7">Fraser's Pub</string>
+    <string name="bar_club_8">Conor O'Neill's</string>
+    <string name="bar_club_1_address">301 W Huron St</string>
+    <string name="bar_club_2_address">2019 W Stadium</string>
+    <string name="bar_club_3_address">338 S State St</string>
+    <string name="bar_club_4_address">210 S Ashley St</string>
+    <string name="bar_club_5_address">303 S Ashley St</string>
+    <string name="bar_club_6_address">114 E Washington St</string>
+    <string name="bar_club_7_address">114 E Washington St</string>
+    <string name="bar_club_8_address">318 S Main St</string>
 </resources>

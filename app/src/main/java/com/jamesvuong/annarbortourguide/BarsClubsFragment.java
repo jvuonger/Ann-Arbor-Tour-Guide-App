@@ -10,15 +10,10 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class BarsClubsFragment extends Fragment {
 
 
-    public BarsClubsFragment() {
-        // Required empty public constructor
-    }
+    public BarsClubsFragment() {}
 
 
     @Override
@@ -27,14 +22,14 @@ public class BarsClubsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.attractions_list, container, false);
 
         ArrayList<CityAttraction> cityAttractionsList = new ArrayList<CityAttraction>();
-        cityAttractionsList.add(new CityAttraction("The Last Word", "301 W Huron St"));
-        cityAttractionsList.add(new CityAttraction("Wolverine State Brewing", "2019 W Stadium"));
-        cityAttractionsList.add(new CityAttraction("Ashley's", "338 S State St"));
-        cityAttractionsList.add(new CityAttraction("Bill's Beer Garden", "210 S Ashley St"));
-        cityAttractionsList.add(new CityAttraction("The Beer Grotto", "303 S Ashley St"));
-        cityAttractionsList.add(new CityAttraction("Arbor Brewing Company", "114 E Washington St"));
-        cityAttractionsList.add(new CityAttraction("Fraser's Pub", "114 E Washington St"));
-        cityAttractionsList.add(new CityAttraction("Conor O'Neill's", "318 S Main St"));
+        cityAttractionsList.add(new CityAttraction(getString(R.string.bar_club_1), getString(R.string.bar_club_1_address)));
+        cityAttractionsList.add(new CityAttraction(getString(R.string.bar_club_2), getString(R.string.bar_club_2_address)));
+        cityAttractionsList.add(new CityAttraction(getString(R.string.bar_club_3), getString(R.string.bar_club_3_address)));
+        cityAttractionsList.add(new CityAttraction(getString(R.string.bar_club_4), getString(R.string.bar_club_4_address)));
+        cityAttractionsList.add(new CityAttraction(getString(R.string.bar_club_5), getString(R.string.bar_club_5_address)));
+        cityAttractionsList.add(new CityAttraction(getString(R.string.bar_club_6), getString(R.string.bar_club_6_address)));
+        cityAttractionsList.add(new CityAttraction(getString(R.string.bar_club_7), getString(R.string.bar_club_7_address)));
+        cityAttractionsList.add(new CityAttraction(getString(R.string.bar_club_8), getString(R.string.bar_club_8_address)));
 
         CityAttractionAdapter itemsAdapter = new CityAttractionAdapter(getContext(), cityAttractionsList);
 

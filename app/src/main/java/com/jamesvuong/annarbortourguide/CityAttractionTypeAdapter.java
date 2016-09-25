@@ -9,7 +9,7 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 
 public class CityAttractionTypeAdapter extends FragmentPagerAdapter {
-    private String[] mTabTitles = new String[] {"Parks", "Museums", "Restaurants", "Bars / Clubs"};
+    private String[] mTabTitles = new String[] { "Parks", "Museums", "Restaurants", "Bars / Clubs"};
 
     public CityAttractionTypeAdapter(FragmentManager fm) {
         super(fm);
